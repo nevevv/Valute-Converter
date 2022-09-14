@@ -1,9 +1,6 @@
 const menu = document.querySelector('.header__nav-menu')
 
-$(window).resize(function() {
-    location.reload();
-});
-    
+
 if(window.innerWidth <= 1000) {
     menu.addEventListener('click', () => {
         menu.classList.toggle('active__menu')  
