@@ -461,12 +461,12 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     border: 0;
-    width: 400px;
+    width: 411px;
 }
 
 .big {
     display: block;
-    width: 93.2%;
+    width: 95.4%;
     padding-left: 30px;
     padding-bottom: 164px;
     padding-top: 26px;
@@ -515,10 +515,6 @@ body {
     color: #999999;
 }
 
-.footer__info {
-    margin-right: 100px;
-}
-
 @media(max-width:1750px) {
     .we__content-item {
         width: 510px;
@@ -561,11 +557,8 @@ body {
 
 @media(max-width:1500px) {
     .input {
-        max-width: 326px;
+        max-width: 335px;
     }    
-    .footer__info {
-        margin-right: 55px;
-    }
 }
 
 
