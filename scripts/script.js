@@ -13,7 +13,8 @@ if(window.innerWidth <= 1000) {
         })
     })    
     $('.header__nav-links').click(function() {
-        $('.header__nav-list').hide()
+        $('.header__nav-list').hide();
+        menu.classList.remove('active__menu')
     })
 }
 
