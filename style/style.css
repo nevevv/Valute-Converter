@@ -751,7 +751,7 @@ body {
         padding-bottom: 50px;        
     }
     .header__content-input input {
-        width: 50%;
+        width: 100%;
     }
     .header__content-input {
         max-width: 250px;
@@ -868,4 +868,17 @@ body {
 .footer__icons {
     display: flex;
     gap: 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+@media(max-width:440px) {
+    .header__content-form {
+        width: 250px;
+        margin-right: 25px;
+    }
 }
