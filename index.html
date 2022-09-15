@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calc</title>
+    <meta name="description" content="Быстрые, дешевые и надежные онлайн-переводы из США">
+
+    <meta name="keywords" content="Перевести деньги, перевод денег, онлайн перевод денег">
+    
+    <title>Перевести деньги из Америки</title>
     <link rel="stylesheet" href="style/style.css">
 
 
@@ -190,18 +194,17 @@
                     </li>
                 </div>
             </div>
-            <form class="form">
-                <input type="text" class="input" placeholder="Имя*" required>
-                <input type="number"  class="input" placeholder="Телефон*" required>
-                <input type="email"  class="input" placeholder="Почта">
+            <form class="form" action="sender.php" method="post">
+                <input type="text" class="input" name="name" placeholder="Имя*" required>
+                <input type="number" name="phone"  class="input" placeholder="Телефон*" required>
+                <input type="email" name="email"  class="input" placeholder="Почта" required>
                 
-                <input type="text" placeholder="Комментарий" class="big">
+                <input type="text" name="text" placeholder="Комментарий" class="big">
 
                 <div class="footer__send">
-                    <button class="footer__btn">Отправить</button>
+                    <button type="button" class="footer__btn">Отправить</button>
                     <p class="footer__text">Отправляя заявку, вы соглашаетесь с нашей политикой обработки персональных данных</p>
                 </div>
-                
             </form>
         </div>
     </footer>
