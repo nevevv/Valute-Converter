@@ -31,8 +31,6 @@ input {
     z-index: 10;
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -62,7 +60,7 @@ body {
 }
 
 .header__nav {
-    padding-top: 60px;
+    padding-top: 15px;
 }
 
 .header__nav-content {
@@ -882,3 +880,17 @@ input::-webkit-inner-spin-button {
         margin-right: 25px;
     }
 }
+
+
+
+
+@media (min-width: 1350px) and (max-width: 1800px) {
+    .header__content-form {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header__content-input {
+        height: 50px;
+    }
+}
+
