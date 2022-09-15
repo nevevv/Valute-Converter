@@ -686,9 +686,13 @@ body {
     .send__title {
         margin-left: 10%;
     }
+    .header {
+        padding-bottom: 20px;
+    }
 }
 
 @media(max-width:610px) {
+    
     .header__nav-logo {
         margin-left: 25px;
     }
@@ -758,6 +762,8 @@ body {
     .header__content-title, .we__title {
         margin-right: 20px;
     }
+  
+
   
 }
 
