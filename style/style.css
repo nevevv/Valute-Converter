@@ -894,3 +894,12 @@ input::-webkit-inner-spin-button {
     }
 }
 
+@media (min-width: 1350px) and (max-width: 1370px) {
+    .header__content-form {
+        gap: 15px;
+    }
+    .header {
+        height: 800px;
+    }
+}
+
